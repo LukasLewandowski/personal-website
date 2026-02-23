@@ -9,6 +9,9 @@
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''"
 	},
+	"engines": {
+		"node": ">=22.12"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^7.0.0",
 		"@sveltejs/adapter-static": "^3.0.10",
